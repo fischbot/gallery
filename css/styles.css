@@ -172,6 +172,29 @@ footer a {
 }
 
 
+#latest-posts h2 {
+  margin-bottom: 60px;
+}
+
+
+.latest-post {
+  margin-bottom: 60px;
+}
+
+.latest-post-title {
+  font-size: 1.6em;
+  text-transform: uppercase;
+  color: #727376;
+  margin: 0;
+}
+
+.latest-post-date {
+  margin: 5px 0 0;
+}
+
+.latest-post-title:hover {
+  color: #222;
+}
 
 /* ================= MEDIA QUERIES ================= */
 @media (min-width: 768px) {
