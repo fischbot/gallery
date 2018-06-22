@@ -15,6 +15,12 @@ a:hover {
   font-weight: bold;
 }
 
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 90%;
+}
+
 main {
   max-width: 1200px;
   margin: 0 auto 100px;
@@ -71,8 +77,7 @@ nav hr {
 #gallery {
   display: grid;
   grid-template-columns: repeat(2, minmax(100px, 1fr) );
-  grid-gap: 20px;
-  padding: 0 6%;
+  grid-gap: 40px;
 }
 
 .gallery-image {
@@ -88,19 +93,8 @@ nav hr {
   margin: 10px 0 0;
 }
 
-footer {
-  text-align: center;
-}
-
 footer a {
   color: #6D6C6F;
-}
-
-
-.container {
-  margin: 0 auto;
-  padding: 0 3%;
-  max-width: 1200px;
 }
 
 /* ================= ABOUT PAGE ================= */
@@ -237,5 +231,15 @@ footer a {
 
   #menu hr {
     display: none;
+  }
+
+  .container {
+    width: 98%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 100%;
   }
 }
