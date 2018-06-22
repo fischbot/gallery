@@ -180,29 +180,24 @@ footer a {
     grid-template-columns: repeat(3, minmax(100px, 1fr) );
   }
 
-  #about-page .container {
+  #about-page .container,
+  #blog-page .container {
     flex-direction: row;
   }
 
-  #about-image {
+  #about-image,
+  #posts {
     flex: 1 0 auto;
     width: 60%;
   }
 
-  #about-text {
+  #about-text,
+  #latest-posts {
     padding-left: 40px;
   }
 
   #about-page h2 {
     margin: 0 0 30px;
-  }
-
-  #blog-page {
-    flex-direction: row;
-  }
-
-  #blog-page section {
-    padding: 0 30px;
   }
 
   header .container {
