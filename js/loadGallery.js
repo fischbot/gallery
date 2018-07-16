@@ -2,18 +2,18 @@
 
 window.addEventListener('load', function() {
   const imageGallery = [
-    {"img": "http://via.placeholder.com/510x510", "title": "Malesuada"},
-    {"img": "http://via.placeholder.com/510x510", "title": "Magna"},
-    {"img": "http://via.placeholder.com/510x510", "title": "Fermentum"},
-    {"img": "http://via.placeholder.com/510x510", "title": "Mollis"},
-    {"img": "http://via.placeholder.com/510x510", "title": "Dapibus"},
-    {"img": "http://via.placeholder.com/510x510", "title": "Justo"},
-    {"img": "http://via.placeholder.com/510x510", "title": "Commodo"},
-    {"img": "http://via.placeholder.com/510x510", "title": "Ridiculus"},
-    {"img": "http://via.placeholder.com/510x510", "title": "Pharetra"},
-    {"img": "http://via.placeholder.com/510x510", "title": "Adipiscing"},
-    {"img": "http://via.placeholder.com/510x510", "title": "Vestibulum"},
-    {"img": "http://via.placeholder.com/510x510", "title": "Nullam"}
+    {"img": "../img/1.jpg", "title": "Malesuada"},
+    {"img": "../img/2.jpg", "title": "Magna"},
+    {"img": "../img/3.jpg", "title": "Fermentum"},
+    {"img": "../img/4.jpg", "title": "Mollis"},
+    {"img": "../img/5.jpg", "title": "Dapibus"},
+    {"img": "../img/6.jpg", "title": "Justo"},
+    {"img": "../img/7.jpg", "title": "Commodo"},
+    {"img": "../img/8.jpg", "title": "Ridiculus"},
+    {"img": "../img/9.jpg", "title": "Pharetra"},
+    {"img": "../img/10.jpg", "title": "Adipiscing"},
+    {"img": "../img/11.jpg", "title": "Vestibulum"},
+    {"img": "../img/12.jpg", "title": "Nullam"}
   ];
 
 
